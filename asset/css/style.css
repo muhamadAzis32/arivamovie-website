@@ -1,0 +1,285 @@
+body {
+    background-color: #000001;
+    font-family: 'Montserrat', sans-serif;
+    color: #c4c4c4;
+}
+
+.header-title {
+    font-size: 19px;
+    line-height: 1.5em;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/*Navbar---------------*/
+.navbar {
+    background-color: rgba(73, 56, 56, 0.1);
+}
+
+
+.nav-link,
+.navbar-brand {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-brand,
+.ft-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 32px;
+}
+
+.nav-link {
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+/*Akhir Navbar*/
+
+
+/*Jumbotron home*/
+.jumbotron {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../Gambar/Jumbotron/Joker3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    color: #c4c4c4;
+}
+
+.jumbotron .display-4 {
+    margin-top: 12%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1em;
+    color: #ffffff;
+}
+
+.jumbotron p {
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #ffffff;
+}
+
+.btn-jbn {
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.btn-jbn:hover {
+    background-color: white !important;
+    color: #000001;
+}
+
+/*Akhir Jumbotron home*/
+
+/*Jumbotron BestRating*/
+.jumbotron3 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("Gambar/Jumbotron/Ironman.jpg");
+    background-size: cover;
+    margin-top: -75px;
+    height: 560px;
+    color: #c4c4c4;
+}
+
+.jumbotron3 .display-4 {
+    margin-top: 90px;
+    font-weight: 410;
+}
+
+/*Akhir Jumbotron BestRating*/
+
+/*Jumbotron Genre*/
+.jumbotron4 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("Gambar/Jumbotron/ironman2.jpg");
+    background-size: cover;
+    margin-top: -75px;
+    height: 560px;
+    color: #c4c4c4;
+}
+
+.jumbotron4 .display-4 {
+    margin-top: 90px;
+    font-weight: 410;
+}
+
+/*Akhir Jumbotron Genre*/
+
+/*Awal Jumbotron Film Joker -----------------------*/
+.jumbotron2-1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("Gambar/Jumbotron/Joker.jpg");
+    background-size: cover;
+    margin-top: -75px;
+    height: 560px;
+    color: #c4c4c4;
+}
+
+.jumbotron2-1 .display-4 {
+    margin-top: 90px;
+    font-weight: 410;
+}
+
+/*Akhir Jumbotron Film Joker*/
+
+/*Awal Jumbotron Film Avenger -----------------------*/
+.jumbotron2-2 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("Gambar/Jumbotron/Endgame.jpg");
+    background-size: cover;
+    margin-top: -75px;
+    height: 560px;
+    color: #c4c4c4;
+}
+
+.jumbotron2-2 .display-4 {
+    margin-top: 90px;
+    font-weight: 410;
+}
+
+/*Akhir Jumbotron Film avenger*/
+
+
+
+/*Awal Konten--------------------------*/
+.main {
+    margin-bottom: 50px;
+}
+
+
+/*Populer Teratas awal dan rekomendasi*/
+.card-populer {
+    background-color: #000001;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card-populer .card-img-top {
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: -10px;
+    width: 100%;
+    max-height: 212px;
+}
+
+.card-populer .card-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-populer .card-text {
+    font-size: 12px;
+}
+
+.card-populer:hover {
+    transform: translateY(-10px);
+}
+
+/*Populer Teratas Akhir*/
+
+
+/*Awal Film upload terbaru*/
+.terbaru img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 151px;
+    margin-bottom: 10px;
+}
+
+.terbaru h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.terbaru p {
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 0px !important;
+}
+
+.terbaru {
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+
+.terbaru:hover {
+    transform: translateY(-5px);
+}
+
+/*Akhir Film Upload terbaru*/
+
+
+/*-----------------------------------------------
+             Film 
+-----------------------------------------------*/
+
+/* Play Vidio */
+.card-film {
+    background-color: #1a1a1a;
+}
+
+.card-film .btn-bg {
+    background-color: #333333;
+    color: #c4c4c4;
+}
+
+/* Play Vidio */
+
+
+/*Akhir Konten---------------------------*/
+
+
+/*footer ----------------------*/
+.footer-ctn {
+    background-color: rgba(78, 65, 65, 0.027);
+}
+
+.footer-ctn.lftr,
+.footer-ctn {
+    color: #c4c4c4 !important;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.footer-ctn .ftr-jdl {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/*Akhir footer*/
+
+
+@media (max-width: 767.98px) {
+    .jumbotron {
+        background-position: center;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 50%;
+        font-weight: 600;
+        font-size: 36px;
+    }
+
+    .jumbotron p {
+        font-size: 12px;
+    }
+}
