@@ -2,7 +2,7 @@
 
 ## arivamovie-website 32
 
-Arifamovie merupakan Situs Nonton Online Terlengkap yang menyediakan film-film berkualitas, menampilkan film yang terpopuler, rekomendasi, dan film terbaru.
+Arifamovie merupakan Situs Nonton Online Terlengkap yang menyediakan film-film berkualitas, menampilkan film yang terpopuler, rekomendasi, dan film terbaru
 
 
 ### Built With
